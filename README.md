@@ -15,7 +15,7 @@ More info about [Microsoft Jet Database Engine](https://docs.microsoft.com/en-us
 - Go to View > Datasheet View
 - Create credentials for admin
 - Save as .mdb in the bin/debug folder of your project.
-- Then call the OLE DB namespace: *using System.Data.OleDB;*
+- Then install System.Data.OleDB nuget package, and type in *using System.Data.OleDB;*
 - Look under *Registration* for the source code
 
 
