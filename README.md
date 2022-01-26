@@ -22,6 +22,7 @@ More info about [Microsoft Jet Database Engine](https://docs.microsoft.com/en-us
 OpenWeather Api [here](https://openweathermap.org/)
 - Create an account on OpenWeather
 - Genereate an api key under [profile name] > My API keys
+- I have converted the temperature to Celcius, but remove the method if you want to use Kelvin. The default temperature from OpenWeather is Kelvin. 
 
 
 ![Splash Screen](https://i.imgur.com/ElHPdsI.png)
