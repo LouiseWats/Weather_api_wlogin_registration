@@ -10,9 +10,18 @@ It includes a splash form with a rotating progressbar, a login and registration 
 
 
 More info about [Microsoft Jet Database Engine](https://docs.microsoft.com/en-us/sql/ado/guide/appendixes/microsoft-ole-db-provider-for-microsoft-jet?view=sql-server-ver15).
+- Create the database by using Microsoft Access.
+- Create a table that contains a username and a password field.
+- Go to View > Datasheet View
+- Create credentials for admin
+- Save as .mdb in the bin/debug folder of your project.
+- Then call the OLE DB namespace: *using System.Data.OleDB;*
+- Look under *Registration* for the source code
+
 
 OpenWeather Api [here](https://openweathermap.org/)
-
+- Create an account on OpenWeather
+- Genereate an api key under [profile name] > My API keys
 
 
 ![Splash Screen](https://i.imgur.com/ElHPdsI.png)
